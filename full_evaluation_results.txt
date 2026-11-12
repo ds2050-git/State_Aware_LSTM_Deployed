@@ -1,0 +1,17 @@
+FULL EVALUATION RESULTS
+==================================================
+Test sentences: 1020
+
+BASE LSTM:
+  Avg Score: 0.2843
+  Std Dev: 0.1873
+  Wins: 169
+  Avg Time: 0.0527s
+
+MODIFIED LSTM:
+  Avg Score: 0.2863
+  Std Dev: 0.1883
+  Wins: 172
+  Avg Time: 0.1023s
+
+IMPROVEMENT: +0.69%

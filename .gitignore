@@ -1,17 +1,30 @@
-__pycache__/
+@"
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
 *.pyc
 *.pyo
-*.pyd
+
+# Big or unneeded files
+*.mp4
+*.zip
+models/*_epoch_*.pth
+
+# Not used by the deployed app
+explainer.html
+config.toml
+
+# Local data and checkpoints
+data/raw/
+checkpoints/
+
+# OS / editor junk
 .DS_Store
-*.egg-info/
-dist/
-build/
-*.log
-models/*.pth
-models/*.png
-models/*.txt
-models/*.pdf
-data/processed/*.pkl
-data/test/
-.ipynb_checkpoints/
+Thumbs.db
+.vscode/
+.idea/
+"@ | Set-Content .gitignore
